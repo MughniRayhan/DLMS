@@ -13,14 +13,15 @@ Digital Library Management System using PHP & MySql
 
 <h2>Fetures VISITORS</h2>
 
-<div  >
-  <img  src="img/banner.png">
+<div>
+  <img style="width:80%" src="img/banner.png" >
   <br/>
   <br/>
   <br/>
-  <img  src="img/books.png">
-  <img  src="img/about.png">
-  <img  src="img/contact .png">
+  <img style="width:80%" src="img/books.png" > <br/>
+
+  <img style="width:80%" src="img/about.png"> <br/>
+  <img style="width:80%" src="img/contact .png"> <br/>
 </div>
 <!-- Admin fetures -->
 <h2>Features ADMIN</h2>
@@ -35,9 +36,9 @@ Digital Library Management System using PHP & MySql
   <li>Logout</li>
 </ul>
 <div >
-  <img  src="img/adminlogin.png">
-   <img  src="img/adminDashbord.png">
-   <img  src="img/studentlist.png">
+  <img style="width:80%" src="img/adminlogin.png"> <br/>
+   <img style="width:80%" src="img/adminDashbord.png"> <br/>
+   <img style="width:80%" src="img/studentlist.png">  <br/>
 </div>
 <!-- Students Features -->
 <h2>Features STUDENTS</h2>
@@ -50,11 +51,13 @@ Digital Library Management System using PHP & MySql
   <li>Logout </li>
 </ul>
 <div >
-  <img  src="img/StudentSignup.png.png">
-  <img  src="img/studentInfo.png">
-  <img  src="img/StudentDashbord.png">
-  <img  src="img/returnbook.png">
-  <img  src="img/requestbook.png">
+  <img style="width:80%" src="img/StudentSignup.png.png"> <br/>
+
+  <img style="width:80%" src="img/studentInfo.png"> <br/>
+  <img style="width:80%" src="img/StudentDashbord.png"> <br/>
+  <img style="width:80%" src="img/returnbook.png"> <br/>
+  <img style="width:80%" src="img/requestbook.png"> <br/>
+  <img style="width:80%" src="img/issuebooks.png"> <br/>
 
 </div>
 
