@@ -28,12 +28,7 @@
                  <div class="student-info-table">
                  <div class="student">
                     <h2 class='d-inline'>BOOK LIST</h2>
-                    <div class="input-group search-bar">
-                      <input type="search" class="form-control " placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
-                      <span  class="input-group-text border-0" id="search-addon">
-                        <i class="fas fa-search"></i>
-                      </span>
-                    </div> 
+                    
                     </div>
                     <div class="container mt-3"> 
 
