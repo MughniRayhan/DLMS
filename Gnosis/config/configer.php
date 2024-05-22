@@ -1,7 +1,7 @@
 <?php
 date_default_timezone_set("Asia/Dhaka");
 
-// setcookie("userName","EmranAlam",time()+60);
+// setcookie("userName","....",time()+60);
 
 $host = "localhost";
 $dbUser = "root";

@@ -56,9 +56,8 @@ if(!isset($_REQUEST['26474']) || $_REQUEST['sinfoAdmin']!='true' )
     <thead>
     <tr>
         <th>Serial No</th>
-        <th>Id</th>
         <th>Firstname</th>
-        <th>Lastname</th>
+        <th>Student_ID</th>
         <th>Email</th>
         <th>Number</th>
         <th>Action</th>
@@ -75,7 +74,7 @@ if(!isset($_REQUEST['26474']) || $_REQUEST['sinfoAdmin']!='true' )
     {
         $id=$row['id'];
         $first=$row['firstName'];
-        $last_name=$row['lastName'];
+        $Student_ID=$row['Student_ID'];
         $email=$row['email'];
         $pass=$row['password'];
         $number=$row['number'];
@@ -84,9 +83,9 @@ if(!isset($_REQUEST['26474']) || $_REQUEST['sinfoAdmin']!='true' )
        
                         <tr>
                         <td><?php echo $count?></td>
-                            <td><?php echo $id?></td>
+                            
                             <td><?php echo $first?></td>
-                            <td><?php echo $last_name?></td>
+                            <td><?php echo $Student_ID?></td>
                             <td><?php echo $email?></td>
                             <td><?php echo $number?></td>
                             <td><a href="php_core/student_delete_core.php?del=<?php echo $id ?>"> Delete</a></td>

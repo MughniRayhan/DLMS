@@ -36,16 +36,16 @@
                   <div class="row">
                      <div class="col-md-6 col-xxl-6 col-lg-6">
                      <div class="mb-3 mt-3">
-                        <label for="pwd" class="form-label">First Name:</label>
-                           <input type="text" class="form-control" id="uname" placeholder="First Name" name="fname" required>
+                        <label for="pwd" class="form-label">Student Name:</label>
+                           <input type="text" class="form-control" id="uname" placeholder="Enter Name" name="fname" required>
                            <div class="valid-feedback">Valid.</div>
                            <div class="invalid-feedback">Please fill out this field.</div>
                         </div>
                      </div>
                      <div class="col-md-6 col-xxl-6 col-lg-6">
                      <div class="mb-3 mt-3">
-                         <label for="pwd" class="form-label">Last Name:</label>
-                        <input type="text" class="form-control" id="uname" placeholder="Last Name" name="lname" required>
+                         <label for="pwd" class="form-label">Student ID:</label>
+                        <input type="text" class="form-control" id="uname" placeholder="Enter ID" name="Student_ID" required>
                         <div class="valid-feedback">Valid.</div>
                         <div class="invalid-feedback">Please fill out this field.</div>
                      </div>

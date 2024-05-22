@@ -106,7 +106,7 @@ INSERT INTO `student-issue-book` (`id`, `book_name`, `author_name`, `issue_detal
 CREATE TABLE `student_login_info` (
   `id` int(11) NOT NULL,
   `firstName` varchar(255) NOT NULL,
-  `lastName` varchar(255) NOT NULL,
+  `Student_ID` varchar(255) NOT NULL,
   `email` varchar(255) NOT NULL,
   `password` varchar(255) NOT NULL,
   `number` int(20) NOT NULL
@@ -116,7 +116,7 @@ CREATE TABLE `student_login_info` (
 -- Dumping data for table `student_login_info`
 --
 
-INSERT INTO `student_login_info` (`id`, `firstName`, `lastName`, `email`, `password`, `number`) VALUES
+INSERT INTO `student_login_info` (`id`, `firstName`, `Student_ID`, `email`, `password`, `number`) VALUES
 (24, 'Rajib ', 'Dash', 'rajib@gmail.com', '0909Rajib', 1823913194),
 (25, 'Rajib ', 'Dash', 'rajib@gmail.com', '0909Rajib', 1823913194),
 (28, 'sagor', 'dash', 'sagor@gmail.com', '12345', 1823913194),

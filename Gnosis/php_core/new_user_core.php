@@ -5,7 +5,7 @@ require_once("../config/configer.php");
 if(isset($_REQUEST['submit']))
 {
    $fastName=$_REQUEST['fname'];
-   $lastName=$_REQUEST['lname'];
+   $Student_ID=$_REQUEST['Student_ID'];
    $email=$_REQUEST['email'];
    $password=$_REQUEST['password'];
    $number=$_REQUEST['number'];
@@ -18,8 +18,8 @@ if(isset($_REQUEST['submit']))
         
     }else
     {
-        $insert_data="INSERT INTO `student_login_info`(`firstName`, `lastName`, `email`, `password`, `number`)
-        VALUES ('$fastName','$lastName','$email','$password','$number')";
+        $insert_data="INSERT INTO `student_login_info`(`firstName`, `Student_ID`, `email`, `password`, `number`)
+        VALUES ('$fastName','$Student_ID','$email','$password','$number')";
        $data= mysqli_query($connect,$insert_data);
        if($data)
        {
