@@ -1,6 +1,6 @@
 <h1>DIGITAL LIBRARY MANAGEMENT SYSTEM.</h1>
 
-Alumni Management System using PHP & MySql
+Digital Library Management System using PHP & MySql
 
 <h2>Requirements.</h2>
 <ul>
@@ -9,58 +9,65 @@ Alumni Management System using PHP & MySql
   <li>Code Editor (Vim, Sublime Text, VSCode)</li>
 </ul>
 
+<!-- Fetures VISITORS -->
+
+<h2>Fetures VISITORS</h2>
+
+<div  >
+  <img  src="img/banner.png">
+  <br/>
+  <br/>
+  <br/>
+  <img  src="img/books.png">
+  <img  src="img/about.png">
+  <img  src="img/contact .png">
+</div>
+<!-- Admin fetures -->
 <h2>Features ADMIN</h2>
 <ul>
   <li>ADMIN Login.</li>
-  <li>Add/Delete Events.</li>
-  <li>Search Alumni.</li>
+  <li>Add/Delete Books.</li>
   <li>Add/Delete/Update Gallery Photos</li>
-  <li>Delete Alumni</li>
-  <li>Add/Delete/Update Success Story Of university's Students</li>
-  <li>Add/Delete/Update Job Post</li>
-  <li>Add/Delete Student ID</li>
+  <li>Delete Students</li>
+  <li>Add/Delete Student Information</li>
+  <li>Check Return Books</li>
+  <li>Add/Delete Book Request</li>
   <li>Logout</li>
 </ul>
 <div >
-  <img  src="image/adminD.png">
+  <img  src="img/adminlogin.png">
+   <img  src="img/adminDashbord.png">
+   <img  src="img/studentlist.png">
 </div>
-
-<h2>Features ALUMNI</h2>
+<!-- Students Features -->
+<h2>Features STUDENTS</h2>
 <ul>
-  <li>Alumni Registration & Login. </li>
-  <li>Update Profile. </li>
-  <li>Add/Delete/Update Gallery Photos</li>
-  <li>Add Jobs Post</li>
+  <li>Students Sign up & Login. </li>
+  <li>Request Books</li>
+  <li>Add Books</li>
+  <li>Return Books</li>
+  <li>Issue Books</li>
   <li>Logout </li>
 </ul>
 <div >
-  <img  src="image/alumniD.png">
-</div>
+  <img  src="img/StudentSignup.png.png">
+  <img  src="img/studentInfo.png">
+  <img  src="img/StudentDashbord.png">
+  <img  src="img/returnbook.png">
+  <img  src="img/requestbook.png">
 
-<h1>Features USERS.</h1>
-<ul>
-  <li>Check Events.</li>
-  <li>Search For Alumni.</li>
-  <li>Check Jobs Post</li>
-  <li>Search For Jobs</li>
-  <li>See University's Success Story</li>
-  <li>See Gallery Photos</li>
-</ul>
-
-<div>
-  <img  src="image/usersD.png">
 </div>
 
 <h1>How to Setup</h1>
 <ul>
   <li>Install XAMPP Server</li>
   <li>Start Apache and MySQL</li>
-  <li>Copy the this folder "Alumni Management System to C:\xampp\htdocs</li>
-  <li>Open browser and type http://localhost/phpmyadmin/</li>
-  <li>Create a new Databse with name "ams"</li>
-  <li>Import the sql file from the database folder in Alumni Management System.</li>
+  <li>Copy the this folder "DLMS to C:\xampp\htdocs</li>
+  <li>Open browser and type http://localhost/DLMS</li>
+  <li>Create a new Databse with name "sql"</li>
+  <li>Import the sql file from the database folder in DLMS.</li>
   <li>
-To open the file in browser type http://localhost/AMS/index.php</li>
+To open the file in browser type http://localhost/DLMS/index.php</li>
 </ul>
 
 <h1>Thanks</h1>
