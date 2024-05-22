@@ -56,7 +56,7 @@ if(!isset($_REQUEST['26474']) || $_REQUEST['sinfoAdmin']!='true' )
     <thead>
     <tr>
         <th>Serial No</th>
-        <th>Firstname</th>
+        <th>Student Name</th>
         <th>Student_ID</th>
         <th>Email</th>
         <th>Number</th>
