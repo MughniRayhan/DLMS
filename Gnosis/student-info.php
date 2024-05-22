@@ -43,12 +43,7 @@ if(!isset($_REQUEST['26474']) || $_REQUEST['sinfoAdmin']!='true' )
                     <div class="student">
                     <h2 class='d-inline'>STUDENT INFO</h2>
                      <form action="php_core/search_student.php" method="post">
-                     <div class="input-group search-bar">
-                      <input type="search" class="form-control " name="Search" placeholder="Search" aria-label="Search" aria-describedby="search-addon" required />
-                      <span style='background: none;' class="input-group-text border-0" id="search-addon">
-                      <input type="submit" value="search" name="s" class="btn btn-primary"  id="">
-                      </span>
-                    </div> 
+                     
                      </form>
                     </div>
                     <div class="container mt-3">  

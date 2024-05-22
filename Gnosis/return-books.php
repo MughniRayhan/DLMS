@@ -68,7 +68,7 @@ if(!isset($_REQUEST['26474']) || $_REQUEST['returnBook']!='true' )
     <thead>
     <tr>
         <th>Serial No</th>
-        <th>Id</th>
+        
         <th>Student Name</th>
         <th>BOOK Name</th>
         <th>Retrun Date</th>
@@ -89,7 +89,7 @@ if(!isset($_REQUEST['26474']) || $_REQUEST['returnBook']!='true' )
         <tbody>
                         <tr>
                         <td><?php echo $count?></td>
-                            <td><?php echo $id?></td>
+                           
                             <td><?php echo  $s_name?></td>
                             <td><?php echo $book_name?></td>
                             <td><?php echo $r_date?></td>
